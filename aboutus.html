@@ -21,8 +21,9 @@
     <link rel="stylesheet" href="css/mdb.min.css" />
 
     <!--CSS Main folder-->
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <!-- Start your project here-->
@@ -43,7 +44,7 @@
   <div class="container-fluid">
 
     <!-- Navbar brand -->
-    <a class="navbar-brand p-3 ms-5 " href="/index.html" ><img width="69" src="/img/logo.png" alt="" ></a>
+    <a class="navbar-brand p-3 ms-5 " href="index.html" ><img width="69" src="img/logo.png" alt="" ></a>
 
     <!-- Toggle button -->
     <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,16 +56,16 @@
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5 ">
         <!-- Link -->
         <li class="nav-item">
-          <a class="nav-link p-3" href="/index.html">Home</a>
+          <a class="nav-link p-3" href="index.html">Home</a>
         </li>
         <li class="nav-item-active m-auto">
-          <a class="nav-link p-3" href="/aboutus.html">About Us</a>
+          <a class="nav-link p-3" href="aboutus.html">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link p-3" href="/index.html">Contact Us</a>
+          <a class="nav-link p-3" href="index.html">Contact Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link p-3" href="/index.html">Register</a>
+          <a class="nav-link p-3" href="index.html">Register</a>
         </li>
       <div class="login m-auto">
         <a class="btn btn-primary ms-3  me-3"href="#">Login</a>
@@ -78,7 +79,7 @@
 <!-- end  Navbar -->
 <!-- landing start -->
 
-<div class="landing ">
+<div class="landing " data-aos="fade-in">
   <div class="bg-image " 
      style="  background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');
      height: 100vh">
@@ -106,6 +107,10 @@
     
     <!-- MDB -->
     <script src="/js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <!-- Custom scripts -->
