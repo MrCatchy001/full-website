@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+[data-aos][data-aos][data-aos-duration="400"], body[data-aos-duration="400"] [data-aos] {
+    transition-duration: 696ms;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: red ;
+    padding: 1.32rem;
+    margin: auto;
+    font-size: 20px;
+   
+}
+
+/*scroll button*/
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: red;
+    
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 34px;
+    transition-duration: 0.25s;
+  }
+
+#myBtn:hover {
+ background-color: rgb(51, 0, 255);
+ transition-duration: 0.25s;
+}
+
+/*navbar*/
+img {
+    vertical-align: middle;
+    border-style: none;
+    margin-left: 80px;
+
+}
+.navbar{
+   background-color: #2c4459;
+}
+
+.navbar-dark .navbar-nav .nav-item-active .nav-link {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 29px;
+   
+}
+.navbar-dark .navbar-toggler{
+    color: white;
+    font-size: 32px;
+}
+.landing .landing-text{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 300px;
+    color: white;
+    position: relative;
+}
+
+.landing-text h1{
+    font-size: 69px;
+    font-weight: bold;
+}
+.landing-text h2{
+    font-size: 32px;
+    font-weight: normal;
+}
+
+/*our aim*/
+.our-job{
+    background-color: #84add1;
+    padding: 20px;
+   
+}
+.our-job .row {
+    --mdb-gutter-x: 0rem;
+    --mdb-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--mdb-gutter-y)*-1);
+    margin-right: calc(var(--mdb-gutter-x)*-0.5);
+    margin-left: calc(var(--mdb-gutter-x)*-0.5);
+    padding-top: 100px;
+}
+
+.our-job .row .our-aim{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 125px 125px 225px 125px;
+    margin-right: 20px;
+    
+}
+.our-job .our-img{
+    
+}
+
+.our-job .row .our-aim h1{
+    font-weight: bold;
+    color: white;
+    font-size: 69px;
+}
+.our-job .row .our-aim h2{
+    color: white;
+    font-size: 32px;
+}
+.our-job .wrapper{
+    padding: 0px 369px 0px 0px;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+/*upcoming jobs aim*/
+.up-coming-conf .header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    border-top: 4px solid black;
+}
+
+
+/*upcoming conf*/
+.card-img, .card-img-top {
+    border-top-left-radius: calc(0.5rem - 1px);
+    border-top-right-radius: calc(0.5rem - 1px);
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h5 {
+    display: block;
+    font-size: 28px;
+    font-weight: bold;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.up-coming-conf .card{
+    width: 18rem;
+    padding: 25px;
+}
+
+
+
+/*middle section*/
+.middle-section{
+    border-top: 4px solid #2C4459;
+    background-color: #2C4459;
+    padding: 20px;
+}
+.middle-section .cont{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+
+}
+#footer{
+    background-color: #1d2730;
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    .landing .landing-text{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 220px 0px 0px 0px;
+        color: white;
+        position: relative;
+    }
+    .landing-text h1{
+        font-size: 55px;
+        font-weight: bold;
+    }
+    .landing-text h2{
+        font-size: 25px;
+        font-weight: normal;
+    }
+    .our-job .row .our-aim{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 90px 0px 90px 0px  ;
+        margin-right: 20px;
+        
+    }
+    
+    .our-job .row .our-aim h1{
+        font-weight: bold;
+        color: white;
+        font-size: 59px;
+    }
+    .our-job .row .our-aim h2{
+        color: white;
+        font-size: 25px;
+    }
+    .our-job .our-img{
+        padding: 30px 30px 30px 30px;
+    }
+    .our-job .wrapper{
+        padding: 0px 135px 120px 0px;
+        align-items: center;
+        justify-content: center;
+      
+    }
+    .up-coming-conf .card{
+        width: 18rem;
+        padding: 25px;
+    }
+    
+  }
