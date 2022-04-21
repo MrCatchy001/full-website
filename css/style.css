@@ -178,6 +178,48 @@ h5 {
     padding: 50px;
 
 }
+/* container */
+.big-container .container p{
+   font-size: 69px;
+   text-align: center;
+   font-weight: bold;
+   padding: 10px;
+}
+.big-container .container .btn-primary{
+    font-size: 69px;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    margin: 10px;
+    text-transform: none;
+ }
+ .big-container .container .btn-1{
+    font-size: 69px;
+    background-color: blue;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    margin: 10px;
+ }
+ .big-container .container{
+     padding: 75px;
+    
+}
+ .big-container{
+    background-color: black;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: none;
+    overflow: hidden;
+}
+
+
+
+
+
 #footer{
     background-color: #1d2730;
     color: black;
